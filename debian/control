@@ -1,0 +1,14 @@
+Source: simple-gmail-notifier
+Section: devel
+Priority: optional
+Maintainer: Konstantin Cherenkov <k.cherenkov@gmail.com>
+Build-Depends: cmake, debhelper, libcurl4-gnutls-dev, libmxml-dev, libnotify-dev, libindicate-gtk-dev, libgnome-keyring-dev
+Homepage: https://github.com/kcherenkov/simple-gmail-notifier
+
+Package: simple-gmail-notifier
+Section: mail
+Priority: optional
+Architecture: any
+Depends: libcurl3, libmxml1, libnotify4, libindicate-gtk3, gnome-keyring
+Description: Simple Gmail Notifier checks your gmail and displays notifications
+

@@ -1,0 +1,31 @@
+# https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+.*
+!.gitignore
+*~
+
+# https://github.com/github/gitignore/blob/master/CMake.gitignore
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CMakeLists.txt.user
+
+# https://github.com/github/gitignore/blob/master/C.gitignore
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app

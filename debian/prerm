@@ -1,0 +1,5 @@
+#!/bin/sh
+
+start-stop-daemon --exec /usr/bin/simple-gmail-notifier --stop --quiet
+rm /home/*/.config/autostart/simple-gmail-notifier.desktop -f
+rm /home/*/.simple-gmail-notifier.lock -f

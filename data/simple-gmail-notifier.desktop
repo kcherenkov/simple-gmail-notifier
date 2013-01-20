@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Simple Gmail Notifier
+Comment=An E-Mail Notifier for Google Mail
+Icon=applications-email-panel
+Type=Application
+Exec=simple-gmail-notifier
+StartupNotify=False
+Terminal=false
+Categories=Network;Email;

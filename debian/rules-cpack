@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+
+BUILDDIR = build
+
+# secondly called by launchpad
+build:
+	mkdir $(BUILDDIR);
+	cd $(BUILDDIR); cmake -DCMAKE_BUILD_TYPE=Release ..
+	cd $(BUILDDIR); cpack
+
+# thirdly called by launchpad
+binary: binary-indep binary-arch
+
+binary-indep:
+	# binary-indep: nothing to be done
+
+binary-arch:
+	# binary-arch: nothing to be done
+	
+
+# firstly called by launchpad
+clean:
+	rm -rf $(BUILDDIR)
+
+.PHONY: binary binary-arch binary-indep clean
